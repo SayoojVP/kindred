@@ -1,18 +1,30 @@
-# React + Vite
+# Kindred: A Personal Relationship Gardener 🌱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Kindred** is a minimalist "Personal CRM" designed to help you nurture your real-world connections. In our busy digital lives, it’s easy to forget to check in on the people who matter most until it feels awkward.
 
-Currently, two official plugins are available:
+Kindred solves this by treating your relationships like a garden. It gives you a clear visual cue when a connection is "wilting" and needs attention, ensuring you never lose touch with friends, family, or mentors.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌸 How It Works
 
-## React Compiler
+* **The Garden Concept:** Contacts are visualized as plants.
+    * 🟢 **Thriving:** You've contacted them recently.
+    * 🟡 **Needs Attention:** It has been a while.
+    * 🔴 **Wilting:** You are overdue for a catch-up.
+* **Watering Schedules:** You define the frequency for each person (e.g., "Call Mom every 7 days" vs "Call Mentor every 30 days").
+* **Smart Sorting:** The app automatically floats the people who need attention most to the top of your list.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+## 🔒 Privacy First
 
-Note: This will impact Vite dev & build performances.
+Kindred values your privacy. The app is built using **Local Storage**, meaning all your contact data lives **only on your device**. No data is ever sent to an external server.
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React.js:** Component-based UI and state management.
+* **Local Storage:** For persistent data without a backend database.
+* **CSS:** Fully mobile-responsive design for on-the-go usage.
+
+## 🚀 Getting Started
+
+1.  Clone the repository.
+2.  Run `npm install` to install dependencies.
+3.  Run `npm start` to view your garden in the browser.
